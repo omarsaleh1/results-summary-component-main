@@ -132,3 +132,27 @@ footer {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+@media (max-width:800px) {
+    main {
+        position: initial;
+        transform: translate(0,0);
+        flex-direction: column;
+        width: 100%;
+        box-shadow:none;
+        border-top: 0px;
+    }
+    .Result {
+        width: 100%;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    .Summary {
+        width: 100%;
+    }
+    footer {
+        position: initial;
+        transform: translate(0,0);
+        padding: 30px 10px 30px 10px;
+        text-align: center;
+    }
+}
