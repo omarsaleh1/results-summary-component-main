@@ -1,0 +1,134 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Hanken Grotesk;
+}
+main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.105) 13px 25px 43px;
+    border-radius:20px ;
+    min-width: 50%;
+    min-height: 50%;
+}
+.Result {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    width: 50%;
+    text-align: center;
+    padding: 30px;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Result header {
+    font-weight: 400;
+
+}
+.Result-Rate {
+    background: linear-gradient(hsl(242, 82%, 55%),hsl(251, 100%, 63%));
+    border-radius: 50%; 
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Result-Rate span {
+    font-size: 500%;
+}
+.Result-Rate p {
+    color: rgba(255, 255, 255, 0.474);
+}
+.Result article h3 {
+    padding: 30px;
+}
+.Result header {
+    color: rgba(255, 255, 255, 0.619);
+    margin-bottom: 25px;
+}
+.Result p {
+    color: rgba(255, 255, 255, 0.522);
+}
+.Summary {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.Summary header {
+    align-self: flex-start;
+}
+.Summary article {
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 800;
+    border-radius: 10px;
+}
+.Summary span {
+    color: black;
+}
+.Summary span span {
+    color: rgba(0, 0, 0, 0.437);
+}
+.Summary img {
+    padding-right: 5px;
+}
+.Summary div {
+    display: flex;
+    flex-direction: row;
+}
+.Reaction {
+    background-color: hsla(0, 100%, 67%, 0.242);
+    color: hsl(0, 100%, 67%);
+}
+.Memory {
+    background-color: hsla(39, 100%, 56%, 0.282);
+    color: hsl(39, 100%, 56%);
+}
+.Verbal {
+    background-color: hsla(166, 100%, 37%, 0.1);
+    color: hsl(166, 100%, 37%);
+}
+.Visual {
+    background-color: hsla(241, 100%, 89%, 0.31);
+    color: hsl(241, 100%, 71%);
+}
+.Button {
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
+.Button:hover {
+    background-color: hsl(241, 81%, 54%);
+    cursor: pointer;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
